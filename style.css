@@ -1,0 +1,80 @@
+*{
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.modal-content{
+  margin-top: 100px;
+}
+.fa-bars{
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: 1px solid white;
+    
+}
+
+.display-4{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Prevent the default scroll bar for the container */
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+  
+
+  /* Enable scrolling for the container's content */
+  body::-webkit-scrollbar {
+    width: 16px; /* Adjust the width as needed */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Adjust the scrollbar thumb color */
+    /* Adjust the scrollbar thumb border radius */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Adjust the scrollbar thumb color on hover */
+  
+  }
+
+  .fa-graduation-cap{
+    color: rgb(0, 167, 223);
+    font-size: 30px;
+  }
+  
+  .d-flex{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.navbar-brand{
+  margin-right: 4em;
+}
+
+
+.input-group>.form-control{
+  width: 300px;
+}
+
+.input-group-text{
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.Alternative{
+  font-size: 17px;
+  cursor: pointer;
+  float: none;
+  text-align: center;
+}
