@@ -78,3 +78,7 @@ body{
   float: none;
   text-align: center;
 }
+
+.jumbotron {
+  border-radius: 0;
+}
